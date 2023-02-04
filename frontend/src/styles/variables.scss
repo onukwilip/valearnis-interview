@@ -1,0 +1,30 @@
+$spacing: 1rem;
+$pry-colour: skyblue;
+$light-colour: white;
+$dark-colour: black;
+$bg-dark: rgb(26, 32, 44);
+
+@mixin grid($gtc, $gar, $gap) {
+    display: grid;
+    grid-template-columns: $gtc;
+    grid-auto-rows: $gar;
+    gap: $gap;
+}
+
+@mixin button() {
+    background: $pry-colour;
+    color: $bg-dark;
+}
+
+@mixin button-inverted() {
+    background: $bg-dark;
+    color: $pry-colour;
+}
+
+@mixin flex($ai, $jc, $gap, $fld) {
+    display: flex;
+    align-items: $ai;
+    justify-content: $jc;
+    gap: $gap;
+    flex-direction: $fld;
+}

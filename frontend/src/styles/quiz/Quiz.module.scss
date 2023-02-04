@@ -1,0 +1,88 @@
+@import "../variables.scss";
+
+.quiz {
+    max-width: 100vw;
+    height: 100vh;
+    background-color: $bg-dark;
+    color: $light-colour;
+    @include flex(center, center, 0, column);
+}
+
+.start-quiz {
+    width: 400px;
+    em:first-of-type {
+        font-size: 23px;
+    }
+    .information {
+        font-size: 18px;
+    }
+    .actions {
+        button {
+            width: 100%;
+            margin-top: $spacing;
+            @include button();
+            &:hover {
+                @include button-inverted();
+            }
+        }
+    }
+}
+
+.questions {
+    width: 500px;
+    .question {
+        font-size: 20px;
+    }
+    .options {
+        @include flex(flex-start, flex-start, 20px, column);
+        & > div {
+            @include flex(center, flex-start, 10px, row);
+        }
+    }
+    .actions {
+        @include flex(center, space-between, 0, row);
+        button {
+            @include button();
+            &:hover {
+                @include button-inverted();
+            }
+        }
+    }
+}
+
+.finished {
+    width: 400px;
+    & > em:first-of-type {
+        font-size: 20px;
+    }
+    .result {
+        @include flex(flex-start, center, 10px, column);
+        font-size: 18px;
+    }
+    .actions {
+        button {
+            width: 100%;
+            margin-top: $spacing;
+            @include button();
+            &:hover {
+                @include button-inverted();
+            }
+        }
+    }
+}
+
+@media (max-width: 510px) {
+    .start-quiz,
+    .questions,
+    .finished {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 310px) {
+    .start-quiz,
+    .questions,
+    .finished {
+        max-width: 270px;
+    }
+}

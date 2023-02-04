@@ -1,0 +1,134 @@
+[
+  {
+    "_id": 0,
+    "question": "What is the full meaning of HTML",
+    "options": [
+      {
+        "text": "Hyper Text Marquee Language",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyper Texting Markup Language",
+        "isCorrect": false
+      },
+      {
+        "text": "Hype Text Markup Language",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyper Text Markup Language",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "_id": 1,
+    "question": "What transpiles JSX to JavaScript",
+    "options": [
+      {
+        "text": "Babel",
+        "isCorrect": true
+      },
+      {
+        "text": "NPM",
+        "isCorrect": false
+      },
+      {
+        "text": "React",
+        "isCorrect": false
+      },
+      {
+        "text": "Webpack",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "question": "Which of the following is an example of CSS pre-processor",
+    "options": [
+      {
+        "text": "Bootstrap",
+        "isCorrect": false
+      },
+      {
+        "text": "SCSS",
+        "isCorrect": true
+      },
+      {
+        "text": "Tailwind",
+        "isCorrect": false
+      },
+      {
+        "text": "Semantic UI",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "question": "Who is the father of computer?",
+    "options": [
+      {
+        "text": "Mark Zuckerberg",
+        "isCorrect": false
+      },
+      {
+        "text": "Charles Babbage",
+        "isCorrect": true
+      },
+      {
+        "text": "Philip Emeagwali",
+        "isCorrect": false
+      },
+      {
+        "text": "Bill Gates",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": 4,
+    "question": "Which of these is a JavaScript framework",
+    "options": [
+      {
+        "text": "React Js",
+        "isCorrect": false
+      },
+      {
+        "text": ".NET",
+        "isCorrect": false
+      },
+      {
+        "text": "JQuery",
+        "isCorrect": false
+      },
+      {
+        "text": "Express Js",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "question": "How many heading tags are there in HTML",
+    "options": [
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "text": "6",
+        "isCorrect": true
+      }
+    ]
+  }
+]

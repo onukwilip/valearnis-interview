@@ -1,0 +1,42 @@
+@import "../variables.scss";
+
+.login {
+    @include flex(flex-start, center, $spacing, column);
+    p {
+        font-size: 30px;
+        em {
+            color: $pry-colour;
+            font-weight: bold;
+        }
+    }
+
+    .form {
+        width: 100%;
+        .input {
+            width: 100%;
+            & > div:first-of-type {
+                height: 50px;
+            }
+        }
+        .actions {
+            text-align: center;
+            button {
+                height: 50px;
+                width: 200px;
+                @include button();
+                font-size: 18px;
+                &:hover {
+                    @include button-inverted();
+                }
+            }
+        }
+    }
+    .info {
+        display: block;
+        text-align: center;
+        width: 100%;
+        a {
+            color: $pry-colour;
+        }
+    }
+}
